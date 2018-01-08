@@ -1,0 +1,11 @@
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/collector/ArtifactoryCollectorTask.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/repository/ArtifactoryCollectorRepository.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/util/ArtifactUtil.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/model/ArtifactoryRepo.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/Application.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/collector/ArtifactoryClient.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/collector/ArtifactorySettings.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/model/ArtifactoryCollector.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/repository/ArtifactoryRepoRepository.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/collector/DefaultArtifactoryClient.java
+/home/devopsadmin/Hygieia/collectors/artifact/artifactory/src/main/java/com/capitalone/dashboard/collector/RestOperationsSupplier.java

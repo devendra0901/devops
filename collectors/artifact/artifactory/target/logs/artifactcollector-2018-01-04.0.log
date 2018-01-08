@@ -1,0 +1,1505 @@
+2018-01-04 07:39:04,624 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2018-01-04 07:39:05,078 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30: startup date [Thu Jan 04 07:39:05 UTC 2018]; root of context hierarchy
+2018-01-04 07:39:05,340 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 07:39:05,447 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d6e3af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 07:39:05,839 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2018-01-04 07:39:06,055 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-01-04 07:39:06,056 INFO  com.capitalone.dashboard.Application - No profiles are active
+2018-01-04 07:39:06,075 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@535ac492: startup date [Thu Jan 04 07:39:06 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30
+2018-01-04 07:39:07,365 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b1bd441f-a316-36f5-8017-4e753f14f0b1
+2018-01-04 07:39:07,370 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2018-01-04 07:39:07,380 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2018-01-04 07:39:07,387 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-01-04 07:39:07,387 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:39:07,387 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:39:07,388 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-01-04 07:39:07,388 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:39:07,388 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:39:07,388 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:39:07,392 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 07:39:07,436 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d6e3af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 07:39:07,895 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2018-01-04 07:39:07,895 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2018-01-04 07:39:07,896 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2018-01-04 07:39:07,965 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2018-01-04 07:39:08,035 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:39:08,100 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:39:08,130 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:39:08,203 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@baa40c1d, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@488e5a5b, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@2e9ca5c1, socketFactory=javax.net.DefaultSocketFactory@2a9f0cda, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:39:08,600 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1191}] to localhost:27017
+2018-01-04 07:39:08,603 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1960814}
+2018-01-04 07:39:08,737 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1192}] to localhost:27017
+2018-01-04 07:39:09,117 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:39:09,118 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:39:09,120 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:39:09,121 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@baa40c1d, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@488e5a5b, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@2e9ca5c1, socketFactory=javax.net.DefaultSocketFactory@2a9f0cda, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:39:09,131 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:39:09,131 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:39:09,132 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:39:09,138 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@baa40c1d, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@488e5a5b, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@2e9ca5c1, socketFactory=javax.net.DefaultSocketFactory@2a9f0cda, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:39:09,175 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:1194}] to localhost:27017
+2018-01-04 07:39:09,175 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=425603}
+2018-01-04 07:39:09,183 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1193}] to localhost:27017
+2018-01-04 07:39:09,185 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2044714}
+2018-01-04 07:39:09,546 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:39:09,546 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:39:09,547 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:39:09,551 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@baa40c1d, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@488e5a5b, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@2e9ca5c1, socketFactory=javax.net.DefaultSocketFactory@2a9f0cda, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:39:09,628 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:1195}] to localhost:27017
+2018-01-04 07:39:09,629 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=399603}
+2018-01-04 07:39:10,623 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-01-04 07:39:10,632 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-01-04 07:39:10,633 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-01-04 07:39:10,634 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-01-04 07:39:10,636 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-01-04 07:39:10,649 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-01-04 07:39:10,657 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=535ac492,type=ConfigurationPropertiesRebinder]
+2018-01-04 07:39:10,737 INFO  com.capitalone.dashboard.Application - Started Application in 6.766 seconds (JVM running for 7.662)
+2018-01-04 07:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:40:00,048 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:40:00,049 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/artifactory/
+2018-01-04 07:40:00,049 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:40:00,321 ERROR c.c.d.c.DefaultArtifactoryClient - Error with REST url: http://localhost:8081/artifactory/artifactory/api/repositories
+2018-01-04 07:40:00,321 ERROR c.c.d.c.DefaultArtifactoryClient - 404 Not Found
+2018-01-04 07:40:00,325 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultArtifactoryClient.getRepos(DefaultArtifactoryClient.java:80) ~[artifactory-artifact-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.ArtifactoryCollectorTask.collect(ArtifactoryCollectorTask.java:84) ~[artifactory-artifact-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.ArtifactoryCollectorTask.collect(ArtifactoryCollectorTask.java:27) ~[artifactory-artifact-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-04 07:40:10,544 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@535ac492: startup date [Thu Jan 04 07:39:06 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30
+2018-01-04 07:40:10,552 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-01-04 07:40:10,555 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-01-04 07:40:10,595 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2018-01-04 07:40:32,242 DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-01-04 07:40:32,249 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2018-01-04 07:40:32,418 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f: startup date [Thu Jan 04 07:40:32 UTC 2018]; root of context hierarchy
+2018-01-04 07:40:32,705 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 07:40:32,803 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 07:40:33,234 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2018-01-04 07:40:33,434 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-01-04 07:40:33,438 INFO  com.capitalone.dashboard.Application - No profiles are active
+2018-01-04 07:40:33,498 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Thu Jan 04 07:40:33 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2018-01-04 07:40:34,821 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b1bd441f-a316-36f5-8017-4e753f14f0b1
+2018-01-04 07:40:34,833 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2018-01-04 07:40:34,854 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2018-01-04 07:40:34,860 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-01-04 07:40:34,860 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:34,861 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:34,861 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-01-04 07:40:34,861 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:34,861 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:34,861 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:34,873 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 07:40:34,927 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 07:40:35,415 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2018-01-04 07:40:35,416 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2018-01-04 07:40:35,416 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2018-01-04 07:40:35,452 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2018-01-04 07:40:35,532 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:35,623 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:35,650 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:35,732 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:36,137 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1201}] to localhost:27017
+2018-01-04 07:40:36,142 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=4916134}
+2018-01-04 07:40:36,268 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1202}] to localhost:27017
+2018-01-04 07:40:36,562 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:36,562 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:36,563 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:36,574 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:36,583 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:36,583 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:36,589 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:36,592 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1203}] to localhost:27017
+2018-01-04 07:40:36,592 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=600804}
+2018-01-04 07:40:36,602 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:36,639 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:1204}] to localhost:27017
+2018-01-04 07:40:36,640 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=328302}
+2018-01-04 07:40:37,031 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:37,031 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:37,032 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:37,035 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:37,078 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:1205}] to localhost:27017
+2018-01-04 07:40:37,079 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=298002}
+2018-01-04 07:40:52,766 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2018-01-04 07:40:52,935 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f: startup date [Thu Jan 04 07:40:52 UTC 2018]; root of context hierarchy
+2018-01-04 07:40:53,173 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 07:40:53,287 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 07:40:53,757 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2018-01-04 07:40:53,938 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-01-04 07:40:53,943 INFO  com.capitalone.dashboard.Application - No profiles are active
+2018-01-04 07:40:53,961 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Thu Jan 04 07:40:53 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2018-01-04 07:40:55,225 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b1bd441f-a316-36f5-8017-4e753f14f0b1
+2018-01-04 07:40:55,236 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2018-01-04 07:40:55,257 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2018-01-04 07:40:55,269 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-01-04 07:40:55,270 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:55,270 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:55,271 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-01-04 07:40:55,271 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:55,272 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:55,275 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 07:40:55,283 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 07:40:55,348 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 07:40:55,872 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>\k<module>)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2018-01-04 07:40:55,873 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<artifact>ivy)-\k<version>(-(?<classifier>[^\.]+))?\.(?<ext>xml)
+2018-01-04 07:40:55,874 INFO  c.c.d.c.DefaultArtifactoryClient - Adding Pattern (?<group>.+)/(?<module>[^/]+)/(?<version>[^/]+)/(?<type>[^/]+)/(?<artifact>[^\.-/]+)-\k<version>(-(?<classifier>[^\.]+))?(\.(?<ext>.+))?
+2018-01-04 07:40:55,930 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2018-01-04 07:40:56,037 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:56,101 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:56,127 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:56,209 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:56,537 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1206}] to localhost:27017
+2018-01-04 07:40:56,538 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=355103}
+2018-01-04 07:40:56,728 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1207}] to localhost:27017
+2018-01-04 07:40:57,038 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:57,039 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:57,039 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:57,041 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:57,061 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:57,062 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:57,062 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:57,083 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1208}] to localhost:27017
+2018-01-04 07:40:57,083 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=388603}
+2018-01-04 07:40:57,084 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:57,127 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:1209}] to localhost:27017
+2018-01-04 07:40:57,128 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=338402}
+2018-01-04 07:40:57,535 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 07:40:57,535 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 07:40:57,536 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 07:40:57,546 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@f9061b60, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@53783604, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@262abb37, socketFactory=javax.net.DefaultSocketFactory@3f2bc847, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 07:40:57,591 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:1210}] to localhost:27017
+2018-01-04 07:40:57,592 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=287902}
+2018-01-04 07:40:58,546 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-01-04 07:40:58,559 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-01-04 07:40:58,560 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-01-04 07:40:58,561 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-01-04 07:40:58,565 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-01-04 07:40:58,582 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-01-04 07:40:58,593 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1f63e00d,type=ConfigurationPropertiesRebinder]
+2018-01-04 07:40:58,885 INFO  com.capitalone.dashboard.Application - Started Application in 6.658 seconds (JVM running for 7.343)
+2018-01-04 07:41:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:41:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:41:00,042 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:41:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:41:00,132 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:41:00,155 INFO  c.c.d.collector.CollectorTask - New repos               5        0s
+2018-01-04 07:41:00,169 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:41:00,171 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:42:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:42:00,018 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:42:00,019 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:42:00,019 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:42:00,025 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:42:00,025 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:42:00,100 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:42:00,100 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:43:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:43:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:43:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:43:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:43:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:43:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:43:00,054 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:43:00,055 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:44:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:44:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:44:00,017 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:44:00,017 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:44:00,024 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:44:00,025 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:44:00,051 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:44:00,051 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:45:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:45:00,009 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:45:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:45:00,014 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:45:00,014 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:45:00,036 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:45:00,037 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:46:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:46:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:46:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:46:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:46:00,029 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:46:00,029 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:46:00,054 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:46:00,055 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:47:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:47:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:47:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:47:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:47:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:47:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:47:00,047 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:47:00,047 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:48:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:48:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:48:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:48:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:48:00,018 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:48:00,018 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:48:00,073 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:48:00,073 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:49:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:49:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:49:00,010 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:49:00,011 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:49:00,019 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:49:00,020 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:49:00,055 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:49:00,059 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:50:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:50:00,011 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:50:00,011 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:50:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:50:00,018 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:50:00,040 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:50:00,042 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:51:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:51:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:51:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:51:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:51:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:51:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:51:00,050 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:51:00,050 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:52:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:52:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:52:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:52:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:52:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:52:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:52:00,039 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:52:00,039 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:53:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:53:00,010 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:53:00,011 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:53:00,011 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:53:00,016 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:53:00,016 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:53:00,036 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:53:00,036 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:54:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:54:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:54:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:54:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:54:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:54:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:54:00,032 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:54:00,032 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:55:00,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:55:00,022 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:55:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:55:00,029 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:55:00,032 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:55:00,060 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:55:00,061 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:56:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:56:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:56:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:56:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:56:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:56:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:56:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:56:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:57:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:57:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:57:00,009 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:57:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:57:00,026 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:57:00,027 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:57:00,046 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:57:00,048 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:58:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:58:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:58:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:58:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:58:00,013 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:58:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:58:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:58:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 07:59:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 07:59:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:59:00,009 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 07:59:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 07:59:00,013 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 07:59:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 07:59:00,032 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 07:59:00,033 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:00:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:00:00,013 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:00:00,013 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:00:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:00:00,017 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:00:00,043 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:00:00,043 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:01:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:01:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:01:00,014 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:01:00,015 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:01:00,019 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:01:00,019 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:01:00,050 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:01:00,050 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:02:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:02:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:02:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:02:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:02:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:02:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:02:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:02:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:03:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:03:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:03:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:03:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:03:00,027 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:03:00,027 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:03:00,052 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:03:00,052 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:04:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:04:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:04:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:04:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:04:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:04:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:04:00,040 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:04:00,040 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:05:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:05:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:05:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:05:00,015 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:05:00,016 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:05:00,045 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:05:00,045 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:06:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:06:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:06:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:06:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:06:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:06:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:06:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:06:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:07:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:07:00,011 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:07:00,011 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:07:00,011 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:07:00,016 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:07:00,016 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:07:00,040 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:07:00,040 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:08:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:08:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:08:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:08:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:08:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:08:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:08:00,039 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:08:00,039 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:09:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:09:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:09:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:09:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:09:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:09:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:09:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:09:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:10:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:10:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:10:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:10:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:10:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:10:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:10:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:11:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:11:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:11:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:11:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:11:00,013 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:11:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:11:00,033 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:11:00,033 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:12:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:12:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:12:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:12:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:12:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:12:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:12:00,033 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:12:00,033 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:13:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:13:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:13:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:13:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:13:00,015 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:13:00,015 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:13:00,034 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:13:00,034 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:14:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:14:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:14:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:14:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:14:00,018 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:14:00,018 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:14:00,034 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:14:00,034 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:15:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:15:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:15:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:15:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:15:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:15:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:15:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:16:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:16:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:16:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:16:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:16:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:16:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:16:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:16:00,031 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:17:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:17:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:17:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:17:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:17:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:17:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:17:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:17:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:18:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:18:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:18:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:18:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:18:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:18:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:18:00,033 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:18:00,033 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:19:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:19:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:19:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:19:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:19:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:19:00,017 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:19:00,049 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:19:00,049 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:20:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:20:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:20:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:20:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:20:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:20:00,026 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:20:00,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:21:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:21:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:21:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:21:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:21:00,015 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:21:00,015 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:21:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:21:00,031 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:22:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:22:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:22:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:22:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:22:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:22:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:22:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:22:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:23:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:23:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:23:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:23:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:23:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:23:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:23:00,028 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:23:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:24:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:24:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:24:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:24:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:24:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:24:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:24:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:24:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:25:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:25:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:25:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:25:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:25:00,021 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:25:00,021 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:25:00,046 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:25:00,046 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:26:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:26:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:26:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:26:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:26:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:26:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:26:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:26:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:27:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:27:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:27:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:27:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:27:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:27:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:27:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:27:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:28:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:28:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:28:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:28:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:28:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:28:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:28:00,027 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:28:00,027 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:29:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:29:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:29:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:29:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:29:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:29:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:29:00,026 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:29:00,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:30:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:30:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:30:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:30:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:30:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:30:00,035 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:30:00,036 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:31:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:31:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:31:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:31:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:31:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:31:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:31:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:31:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:32:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:32:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:32:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:32:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:32:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:32:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:32:00,042 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:32:00,042 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:33:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:33:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:33:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:33:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:33:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:33:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:33:00,026 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:33:00,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:34:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:34:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:34:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:34:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:34:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:34:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:34:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:34:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:35:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:35:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:35:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:35:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:35:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:35:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:35:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:36:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:36:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:36:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:36:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:36:00,020 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:36:00,020 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:36:00,039 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:36:00,039 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:37:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:37:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:37:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:37:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:37:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:37:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:37:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:37:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:38:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:38:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:38:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:38:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:38:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:38:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:38:00,033 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:38:00,034 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:39:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:39:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:39:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:39:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:39:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:39:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:39:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:39:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:40:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:40:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:40:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:40:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:40:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:40:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:40:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:41:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:41:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:41:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:41:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:41:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:41:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:41:00,036 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:41:00,036 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:42:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:42:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:42:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:42:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:42:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:42:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:42:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:42:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:43:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:43:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:43:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:43:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:43:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:43:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:43:00,028 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:43:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:44:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:44:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:44:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:44:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:44:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:44:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:44:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:44:00,032 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:45:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:45:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:45:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:45:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:45:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:45:00,028 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:45:00,028 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:46:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:46:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:46:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:46:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:46:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:46:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:46:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:46:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:47:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:47:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:47:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:47:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:47:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:47:00,018 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:47:00,040 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:47:00,040 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:48:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:48:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:48:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:48:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:48:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:48:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:48:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:48:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:49:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:49:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:49:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:49:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:49:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:49:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:49:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:49:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:50:00,012 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:50:00,012 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:50:00,012 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:50:00,015 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:50:00,016 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:50:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:50:00,031 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:51:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:51:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:51:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:51:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:51:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:51:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:51:00,028 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:51:00,028 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:52:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:52:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:52:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:52:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:52:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:52:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:52:00,034 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:52:00,034 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:53:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:53:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:53:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:53:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:53:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:53:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:53:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:53:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:54:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:54:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:54:00,009 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:54:00,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:54:00,013 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:54:00,013 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:54:00,033 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:54:00,034 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:55:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:55:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:55:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:55:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:55:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:55:00,027 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:55:00,027 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:56:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:56:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:56:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:56:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:56:00,012 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:56:00,012 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:56:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:56:00,032 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:57:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:57:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:57:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:57:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:57:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:57:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:57:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:57:00,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:58:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:58:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:58:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:58:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:58:00,021 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:58:00,022 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:58:00,038 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:58:00,038 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 08:59:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 08:59:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:59:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 08:59:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 08:59:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 08:59:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 08:59:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 08:59:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:00:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:00:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:00:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:00:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:00:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:00:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:00:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:01:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:01:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:01:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:01:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:01:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:01:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:01:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:01:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:02:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:02:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:02:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:02:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:02:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:02:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:02:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:02:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:03:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:03:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:03:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:03:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:03:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:03:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:03:00,036 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:03:00,036 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:04:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:04:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:04:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:04:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:04:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:04:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:04:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:04:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:05:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:05:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:05:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:05:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:05:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:05:00,026 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:05:00,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:06:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:06:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:06:00,008 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:06:00,008 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:06:00,013 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:06:00,014 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:06:00,032 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:06:00,032 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:07:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:07:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:07:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:07:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:07:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:07:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:07:00,036 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:07:00,036 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:08:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:08:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:08:00,007 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:08:00,007 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:08:00,011 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:08:00,011 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:08:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:08:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:09:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:09:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:09:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:09:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:09:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:09:00,017 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:09:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:09:00,029 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:10:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:10:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:10:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:10:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:10:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:10:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:10:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:11:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:11:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:11:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:11:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:11:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:11:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:11:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:11:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:12:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:12:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:12:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:12:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:12:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:12:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:12:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:12:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:13:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:13:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:13:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:13:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:13:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:13:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:13:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:13:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:14:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:14:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:14:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:14:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:14:00,015 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:14:00,015 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:14:00,040 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:14:00,042 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:15:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:15:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:15:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:15:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:15:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:15:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:15:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:15:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:16:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:16:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:16:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:16:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:16:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:16:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:16:00,028 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:16:00,028 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:17:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:17:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:17:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:17:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:17:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:17:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:17:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:17:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:18:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:18:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:18:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:18:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:18:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:18:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:18:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:18:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:19:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:19:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:19:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:19:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:19:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:19:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:19:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:19:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:20:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:20:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:20:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:20:00,018 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:20:00,018 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:20:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:20:00,031 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:21:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:21:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:21:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:21:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:21:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:21:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:21:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:21:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:22:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:22:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:22:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:22:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:22:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:22:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:22:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:22:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:23:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:23:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:23:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:23:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:23:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:23:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:23:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:23:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:24:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:24:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:24:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:24:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:24:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:24:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:24:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:24:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:25:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:25:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:25:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:25:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:25:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:25:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:25:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:26:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:26:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:26:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:26:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:26:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:26:00,019 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:26:00,040 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:26:00,040 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:27:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:27:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:27:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:27:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:27:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:27:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:27:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:27:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:28:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:28:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:28:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:28:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:28:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:28:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:28:00,026 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:28:00,026 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:29:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:29:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:29:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:29:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:29:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:29:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:29:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:29:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:30:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:30:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:30:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:30:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:30:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:30:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:30:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:31:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:31:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:31:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:31:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:31:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:31:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:31:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:31:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:32:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:32:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:32:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:32:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:32:00,020 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:32:00,020 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:32:00,031 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:32:00,031 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:33:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:33:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:33:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:33:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:33:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:33:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:33:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:33:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:34:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:34:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:34:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:34:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:34:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:34:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:34:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:34:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:35:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:35:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:35:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:35:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:35:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:35:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:35:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:35:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:36:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:36:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:36:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:36:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:36:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:36:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:36:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:36:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:37:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:37:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:37:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:37:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:37:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:37:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:37:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:37:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:38:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:38:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:38:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:38:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:38:00,022 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:38:00,022 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:38:00,041 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:38:00,041 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:39:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:39:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:39:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:39:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:39:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:39:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:39:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:39:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:40:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:40:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:40:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:40:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:40:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:40:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:40:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:41:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:41:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:41:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:41:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:41:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:41:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:41:00,032 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:41:00,032 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:42:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:42:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:42:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:42:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:42:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:42:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:42:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:42:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:43:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:43:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:43:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:43:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:43:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:43:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:43:00,027 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:43:00,027 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:44:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:44:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:44:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:44:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:44:00,022 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:44:00,022 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:44:00,034 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:44:00,034 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:45:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:45:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:45:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:45:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:45:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:45:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:45:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:46:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:46:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:46:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:46:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:46:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:46:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:46:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:46:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:47:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:47:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:47:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:47:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:47:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:47:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:47:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:47:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:48:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:48:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:48:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:48:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:48:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:48:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:48:00,025 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:48:00,025 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:49:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:49:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:49:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:49:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:49:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:49:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:49:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:49:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:50:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:50:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:50:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:50:00,016 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:50:00,017 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:50:00,027 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:50:00,028 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:51:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:51:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:51:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:51:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:51:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:51:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:51:00,021 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:51:00,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:52:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:52:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:52:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:52:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:52:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:52:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:52:00,022 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:52:00,022 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:53:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:53:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:53:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:53:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:53:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:53:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:53:00,017 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:53:00,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:54:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:54:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:54:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:54:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:54:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:54:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:54:00,018 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:54:00,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:55:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:55:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:55:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:55:00,006 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:55:00,006 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:55:00,016 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:55:00,017 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:56:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:56:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:56:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:56:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:56:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:56:00,017 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:56:00,033 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:56:00,033 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:57:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:57:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:57:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:57:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:57:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:57:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:57:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:57:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:58:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:58:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:58:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:58:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:58:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:58:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:58:00,018 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:58:00,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 09:59:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 09:59:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:59:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 09:59:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 09:59:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 09:59:00,009 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 09:59:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 09:59:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:00:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:00:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:00:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:00:00,009 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:00:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:00:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:00:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:01:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:01:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:01:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:01:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:01:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:01:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:01:00,018 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:01:00,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:02:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:02:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:02:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:02:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:02:00,019 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:02:00,020 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:02:00,029 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:02:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:03:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:03:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:03:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:03:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:03:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:03:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:03:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:03:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:04:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:04:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:04:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:04:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:04:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:04:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:04:00,024 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:04:00,024 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:05:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:05:00,006 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:05:00,006 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:05:00,018 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:05:00,018 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:05:00,036 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:05:00,036 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:06:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:06:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:06:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:06:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:06:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:06:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:06:00,017 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:06:00,017 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:07:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:07:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:07:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:07:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:07:00,006 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:07:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:07:00,016 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:07:00,017 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:08:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:08:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:08:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:08:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:08:00,025 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:08:00,025 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:08:00,041 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:08:00,041 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:09:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:09:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:09:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:09:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:09:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:09:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:09:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:09:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:10:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:10:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:10:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:10:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:10:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:10:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:10:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:11:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:11:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:11:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:11:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:11:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:11:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:11:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:11:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:12:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:12:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:12:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:12:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:12:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:12:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:12:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:12:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:13:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:13:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:13:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:13:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:13:00,006 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:13:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:13:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:13:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:14:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:14:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:14:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:14:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:14:00,017 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:14:00,017 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:14:00,030 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:14:00,030 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:15:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:15:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:15:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:15:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:15:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:15:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:15:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:15:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:16:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:16:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:16:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:16:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:16:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:16:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:16:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:16:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:17:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:17:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:17:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:17:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:17:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:17:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:17:00,019 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:17:00,019 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:18:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:18:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:18:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:18:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:18:00,010 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:18:00,010 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:18:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:18:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:19:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:19:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:19:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:19:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:19:00,006 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:19:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:19:00,018 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:19:00,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:20:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:20:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:20:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:20:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:20:00,021 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:20:00,021 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:20:00,048 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:20:00,048 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:21:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:21:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:21:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:21:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:21:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:21:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:21:00,023 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:21:00,023 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:22:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:22:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:22:00,005 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:22:00,005 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:22:00,008 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:22:00,008 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:22:00,020 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:22:00,020 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:23:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:23:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:23:00,004 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:23:00,004 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:23:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:23:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:23:00,018 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:23:00,018 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:24:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Artifactory
+2018-01-04 10:24:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:24:00,003 INFO  c.c.d.collector.CollectorTask - http://localhost:8081/
+2018-01-04 10:24:00,003 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 10:24:00,007 INFO  c.c.d.collector.CollectorTask - Fetched repos                    0s
+2018-01-04 10:24:00,007 INFO  c.c.d.collector.CollectorTask - New repos               0        0s
+2018-01-04 10:24:00,017 INFO  c.c.d.collector.CollectorTask - New artifacts           0        0s
+2018-01-04 10:24:00,017 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 10:24:25,156 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Thu Jan 04 07:40:53 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2018-01-04 10:24:25,166 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-01-04 10:24:25,167 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-01-04 10:24:25,186 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

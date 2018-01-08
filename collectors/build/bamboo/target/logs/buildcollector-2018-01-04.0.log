@@ -1,0 +1,240 @@
+2018-01-04 04:53:35,130 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2018-01-04 04:53:35,294 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30: startup date [Thu Jan 04 04:53:35 UTC 2018]; root of context hierarchy
+2018-01-04 04:53:35,534 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 04:53:35,637 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d6e3af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 04:53:36,048 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2018-01-04 04:53:36,246 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-01-04 04:53:36,254 INFO  com.capitalone.dashboard.Application - No profiles are active
+2018-01-04 04:53:36,286 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@535ac492: startup date [Thu Jan 04 04:53:36 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30
+2018-01-04 04:53:37,726 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=72f69790-a03a-3996-9d0b-aff0f9f8cda1
+2018-01-04 04:53:37,730 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2018-01-04 04:53:37,741 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2018-01-04 04:53:37,747 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-01-04 04:53:37,748 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 04:53:37,748 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 04:53:37,748 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-01-04 04:53:37,749 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 04:53:37,749 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 04:53:37,749 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-04 04:53:37,753 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-04 04:53:37,819 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d6e3af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 04:53:37,962 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2018-01-04 04:53:38,059 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 04:53:38,157 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 04:53:38,197 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 04:53:38,291 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@39a30ede, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@5fdecc89, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@52d237b8, socketFactory=javax.net.DefaultSocketFactory@1ce6ed91, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 04:53:38,864 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1126}] to localhost:27017
+2018-01-04 04:53:38,865 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=559502}
+2018-01-04 04:53:39,030 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1127}] to localhost:27017
+2018-01-04 04:53:39,321 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 04:53:39,321 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 04:53:39,322 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 04:53:39,329 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@39a30ede, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@5fdecc89, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@52d237b8, socketFactory=javax.net.DefaultSocketFactory@1ce6ed91, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 04:53:39,343 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 04:53:39,346 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 04:53:39,346 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 04:53:39,367 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@39a30ede, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@5fdecc89, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@52d237b8, socketFactory=javax.net.DefaultSocketFactory@1ce6ed91, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 04:53:39,477 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1128}] to localhost:27017
+2018-01-04 04:53:39,477 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=450001}
+2018-01-04 04:53:39,483 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:1129}] to localhost:27017
+2018-01-04 04:53:39,484 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=310801}
+2018-01-04 04:53:39,834 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-04 04:53:39,835 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-04 04:53:39,836 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-04 04:53:39,844 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@39a30ede, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@5fdecc89, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@52d237b8, socketFactory=javax.net.DefaultSocketFactory@1ce6ed91, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-04 04:53:39,884 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:1130}] to localhost:27017
+2018-01-04 04:53:39,886 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1495106}
+2018-01-04 04:53:40,808 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-01-04 04:53:40,817 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-01-04 04:53:40,818 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-01-04 04:53:40,818 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-01-04 04:53:40,820 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-01-04 04:53:40,835 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-01-04 04:53:40,842 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=535ac492,type=ConfigurationPropertiesRebinder]
+2018-01-04 04:53:40,911 INFO  com.capitalone.dashboard.Application - Started Application in 6.403 seconds (JVM running for 7.192)
+2018-01-04 04:55:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 04:55:00,007 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:1127}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 04:55:00,110 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:1137}] to localhost:27017
+2018-01-04 04:55:00,268 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 04:55:00,273 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 04:55:00,273 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 04:55:00,341 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 04:55:00,345 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 04:55:00,500 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 04:55:00,507 INFO  c.c.d.collector.CollectorTask - New jobs                1        0s
+2018-01-04 04:55:00,549 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 04:55:00,549 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 04:56:38,213 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:6, serverValue:1137}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:00:00,060 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:1142}] to localhost:27017
+2018-01-04 05:00:00,105 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:00:00,105 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:00:00,105 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:00:00,190 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:00:00,190 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:00:00,317 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:00:00,317 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:00:00,319 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:00:00,319 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:01:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:7, serverValue:1142}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:05:00,044 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:1147}] to localhost:27017
+2018-01-04 05:05:00,081 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:05:00,083 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:05:00,083 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:05:00,158 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:05:00,159 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:05:00,226 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:05:00,226 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:05:00,649 INFO  c.c.d.collector.CollectorTask - New builds              4        0s
+2018-01-04 05:05:00,650 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:06:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:8, serverValue:1147}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:10:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:10:00,053 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:1150}] to localhost:27017
+2018-01-04 05:10:00,065 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:10:00,065 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:10:00,073 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:10:00,152 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:10:00,154 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:10:00,206 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:10:00,207 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:10:00,216 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:10:00,216 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:11:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:9, serverValue:1150}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:15:00,061 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:1154}] to localhost:27017
+2018-01-04 05:15:00,082 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:15:00,083 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:15:00,083 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:15:00,120 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:15:00,120 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:15:00,199 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:15:00,200 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:15:00,206 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:15:00,206 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:16:38,213 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:10, serverValue:1154}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:20:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:20:00,043 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:1159}] to localhost:27017
+2018-01-04 05:20:00,052 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:20:00,052 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:20:00,052 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:20:00,174 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:20:00,175 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:20:00,350 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:20:00,350 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:20:00,366 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:20:00,367 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:21:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:11, serverValue:1159}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:25:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:25:00,040 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:1161}] to localhost:27017
+2018-01-04 05:25:00,071 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:25:00,072 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:25:00,076 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:25:00,147 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:25:00,147 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:25:00,212 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:25:00,212 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:25:00,225 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:25:00,225 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:26:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:12, serverValue:1161}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:30:00,058 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:13, serverValue:1165}] to localhost:27017
+2018-01-04 05:30:00,087 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:30:00,088 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:30:00,088 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:30:00,114 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:30:00,114 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:30:00,196 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:30:00,196 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:30:00,202 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:30:00,202 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:31:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:13, serverValue:1165}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:35:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:14, serverValue:1168}] to localhost:27017
+2018-01-04 05:35:00,027 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:35:00,027 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:35:00,027 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:35:00,080 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:35:00,080 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:35:00,173 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:35:00,173 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:35:00,187 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:35:00,187 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:36:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:14, serverValue:1168}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:40:00,041 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:15, serverValue:1172}] to localhost:27017
+2018-01-04 05:40:00,121 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:40:00,123 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:40:00,124 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:40:00,169 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:40:00,169 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:40:00,238 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:40:00,239 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:40:00,243 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:40:00,244 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:41:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:15, serverValue:1172}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:45:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:16, serverValue:1175}] to localhost:27017
+2018-01-04 05:45:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:45:00,042 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:45:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:45:00,086 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:45:00,088 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:45:00,212 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:45:00,213 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:45:00,225 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:45:00,225 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:46:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:16, serverValue:1175}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:50:00,024 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:17, serverValue:1179}] to localhost:27017
+2018-01-04 05:50:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:50:00,043 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:50:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:50:00,303 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:50:00,309 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:50:00,362 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:50:00,363 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:50:00,367 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:50:00,367 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:51:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:17, serverValue:1179}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 05:55:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 05:55:00,031 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:18, serverValue:1183}] to localhost:27017
+2018-01-04 05:55:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:55:00,036 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 05:55:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 05:55:00,084 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 05:55:00,084 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 05:55:00,178 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 05:55:00,178 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 05:55:00,183 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 05:55:00,183 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 05:56:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:18, serverValue:1183}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 06:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 06:00:00,067 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:19, serverValue:1184}] to localhost:27017
+2018-01-04 06:00:00,102 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 06:00:00,102 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 06:00:00,105 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 06:00:00,172 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 06:00:00,172 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 06:00:00,228 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 06:00:00,228 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 06:00:00,236 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 06:00:00,236 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 06:01:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:19, serverValue:1184}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 06:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bamboo
+2018-01-04 06:05:00,040 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:20, serverValue:1187}] to localhost:27017
+2018-01-04 06:05:00,054 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 06:05:00,055 INFO  c.c.d.collector.CollectorTask - http://localhost:8085
+2018-01-04 06:05:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-04 06:05:00,130 INFO  c.c.d.collector.DefaultBambooClient - Plan:FT-BUIL
+2018-01-04 06:05:00,130 INFO  c.c.d.collector.DefaultBambooClient - PlanURL: http://localhost:8085/rest/api/latest/plan/FT-BUIL
+2018-01-04 06:05:00,179 INFO  c.c.d.collector.CollectorTask - Fetched jobs                     0s
+2018-01-04 06:05:00,179 INFO  c.c.d.collector.CollectorTask - New jobs                0        0s
+2018-01-04 06:05:00,185 INFO  c.c.d.collector.CollectorTask - New builds              0        0s
+2018-01-04 06:05:00,186 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-04 06:06:38,212 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:20, serverValue:1187}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-04 06:08:38,315 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@535ac492: startup date [Thu Jan 04 04:53:36 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30
+2018-01-04 06:08:38,324 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-01-04 06:08:38,325 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-01-04 06:08:38,363 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:21, serverValue:1188}] to localhost:27017
+2018-01-04 06:08:38,367 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

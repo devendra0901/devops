@@ -1,0 +1,12 @@
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/collector/FeatureCollectorTask.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/repository/FeatureCollectorRepository.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/collector/FeatureSettings.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/collector/StoryDataClient.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/util/DateUtil.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/model/FeatureCollector.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/collector/ProjectDataClient.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/datafactory/versionone/VersionOneDataFactoryImpl.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/collector/BaseClient.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/Application.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/collector/TeamDataClient.java
+/home/devopsadmin/Hygieia/collectors/feature/versionone/src/main/java/com/capitalone/dashboard/datafactory/versionone/VersionOneDataFactory.java

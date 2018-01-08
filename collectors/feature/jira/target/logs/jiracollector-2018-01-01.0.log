@@ -1,0 +1,226 @@
+2018-01-01 10:41:03,700 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2018-01-01 10:41:03,976 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@a01487d: startup date [Mon Jan 01 10:41:03 UTC 2018]; root of context hierarchy
+2018-01-01 10:41:04,369 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-01 10:41:04,504 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76c6e774] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-01 10:41:04,971 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2018-01-01 10:41:05,199 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-01-01 10:41:05,205 INFO  com.capitalone.dashboard.Application - No profiles are active
+2018-01-01 10:41:05,227 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2990a784: startup date [Mon Jan 01 10:41:05 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@a01487d
+2018-01-01 10:41:07,180 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=65b80803-e029-34f9-bcb1-96c94d6129dc
+2018-01-01 10:41:07,185 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2018-01-01 10:41:07,197 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2018-01-01 10:41:07,208 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-01-01 10:41:07,209 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:41:07,209 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:41:07,209 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-01-01 10:41:07,209 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:41:07,209 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:41:07,209 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:41:07,216 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-01 10:41:07,272 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76c6e774] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-01 10:41:08,067 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2018-01-01 10:41:08,157 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:41:08,265 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:41:08,312 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:41:08,430 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@93534055, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3b720172, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@e77e859, socketFactory=javax.net.DefaultSocketFactory@1d0588b8, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:41:08,954 INFO  org.mongodb.driver.cluster - No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2018-01-01 10:41:08,975 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:560}] to localhost:27017
+2018-01-01 10:41:08,976 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=510602}
+2018-01-01 10:41:09,036 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:562}] to localhost:27017
+2018-01-01 10:41:09,718 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:41:09,718 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:41:09,719 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:41:09,723 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@93534055, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3b720172, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@e77e859, socketFactory=javax.net.DefaultSocketFactory@1d0588b8, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:41:09,751 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:41:09,752 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:41:09,752 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:41:09,779 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@93534055, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3b720172, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@e77e859, socketFactory=javax.net.DefaultSocketFactory@1d0588b8, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:41:09,811 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:563}] to localhost:27017
+2018-01-01 10:41:09,812 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=984204}
+2018-01-01 10:41:09,843 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:564}] to localhost:27017
+2018-01-01 10:41:09,844 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=275001}
+2018-01-01 10:41:10,425 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:41:10,425 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:41:10,427 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:41:10,431 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@93534055, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@3b720172, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@e77e859, socketFactory=javax.net.DefaultSocketFactory@1d0588b8, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:41:10,547 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:565}] to localhost:27017
+2018-01-01 10:41:10,548 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=346402}
+2018-01-01 10:41:11,852 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-01-01 10:41:11,865 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-01-01 10:41:11,866 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-01-01 10:41:11,867 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-01-01 10:41:11,869 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-01-01 10:41:11,889 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-01-01 10:41:11,903 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2990a784,type=ConfigurationPropertiesRebinder]
+2018-01-01 10:41:12,009 INFO  com.capitalone.dashboard.Application - Started Application in 9.063 seconds (JVM running for 10.189)
+2018-01-01 10:43:08,329 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:562}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:45:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Jira
+2018-01-01 10:45:00,033 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:577}] to localhost:27017
+2018-01-01 10:45:00,160 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:45:00,160 INFO  c.c.d.collector.CollectorTask - http://localhost:8086/
+2018-01-01 10:45:00,160 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:45:00,199 INFO  c.c.d.collector.CollectorTask - Team Data               0        0s
+2018-01-01 10:45:00,508 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 10:45:00,508 INFO  c.c.d.collector.CollectorTask - Project Data            0        0s
+2018-01-01 10:45:00,583 ERROR c.c.d.client.DefaultJiraClient - IOException
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://localhost:8086/rest/api/2/status/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[na:1.8.0_151]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[na:1.8.0_151]
+	at java.net.URLConnection.getContent(URLConnection.java:739) ~[na:1.8.0_151]
+	at com.capitalone.dashboard.client.DefaultJiraClient.getStatusMapping(DefaultJiraClient.java:442) ~[jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStatuses(StoryDataClientImpl.java:750) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStoryInformation(StoryDataClientImpl.java:154) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:119) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:28) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) [core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:45:00,707 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 10:45:00,707 INFO  c.c.d.c.story.StoryDataClientImpl - Loop i 0 pageSize 0
+2018-01-01 10:45:00,707 INFO  c.c.d.collector.CollectorTask - Story Data              0        0s
+2018-01-01 10:45:00,707 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-01 10:46:08,329 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:6, serverValue:577}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Jira
+2018-01-01 10:50:00,060 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:585}] to localhost:27017
+2018-01-01 10:50:00,082 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:50:00,083 INFO  c.c.d.collector.CollectorTask - http://localhost:8086/
+2018-01-01 10:50:00,083 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:50:00,083 INFO  c.c.d.collector.CollectorTask - Team Data               0        0s
+2018-01-01 10:50:00,186 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 10:50:00,193 INFO  c.c.d.collector.CollectorTask - Project Data            0        0s
+2018-01-01 10:50:00,209 ERROR c.c.d.client.DefaultJiraClient - IOException
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://localhost:8086/rest/api/2/status/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[na:1.8.0_151]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[na:1.8.0_151]
+	at java.net.URLConnection.getContent(URLConnection.java:739) ~[na:1.8.0_151]
+	at com.capitalone.dashboard.client.DefaultJiraClient.getStatusMapping(DefaultJiraClient.java:442) ~[jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStatuses(StoryDataClientImpl.java:750) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStoryInformation(StoryDataClientImpl.java:154) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:119) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:28) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) [core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:50:00,270 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 10:50:00,271 INFO  c.c.d.c.story.StoryDataClientImpl - Loop i 0 pageSize 0
+2018-01-01 10:50:00,271 INFO  c.c.d.collector.CollectorTask - Story Data              0        0s
+2018-01-01 10:50:00,271 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-01 10:51:08,329 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:7, serverValue:585}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:55:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Jira
+2018-01-01 10:55:00,030 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:591}] to localhost:27017
+2018-01-01 10:55:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:55:00,059 INFO  c.c.d.collector.CollectorTask - http://localhost:8086/
+2018-01-01 10:55:00,059 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:55:00,059 INFO  c.c.d.collector.CollectorTask - Team Data               0        0s
+2018-01-01 10:55:00,137 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 10:55:00,137 INFO  c.c.d.collector.CollectorTask - Project Data            0        0s
+2018-01-01 10:55:00,169 ERROR c.c.d.client.DefaultJiraClient - IOException
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://localhost:8086/rest/api/2/status/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[na:1.8.0_151]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[na:1.8.0_151]
+	at java.net.URLConnection.getContent(URLConnection.java:739) ~[na:1.8.0_151]
+	at com.capitalone.dashboard.client.DefaultJiraClient.getStatusMapping(DefaultJiraClient.java:442) ~[jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStatuses(StoryDataClientImpl.java:750) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStoryInformation(StoryDataClientImpl.java:154) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:119) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:28) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) [core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:55:00,214 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 10:55:00,214 INFO  c.c.d.c.story.StoryDataClientImpl - Loop i 0 pageSize 0
+2018-01-01 10:55:00,214 INFO  c.c.d.collector.CollectorTask - Story Data              0        0s
+2018-01-01 10:55:00,214 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-01 10:56:08,329 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:8, serverValue:591}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Jira
+2018-01-01 11:00:00,037 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:595}] to localhost:27017
+2018-01-01 11:00:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:00:00,054 INFO  c.c.d.collector.CollectorTask - http://localhost:8086/
+2018-01-01 11:00:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:00:00,055 INFO  c.c.d.collector.CollectorTask - Team Data               0        0s
+2018-01-01 11:00:00,125 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 11:00:00,126 INFO  c.c.d.collector.CollectorTask - Project Data            0        0s
+2018-01-01 11:00:00,150 ERROR c.c.d.client.DefaultJiraClient - IOException
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://localhost:8086/rest/api/2/status/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[na:1.8.0_151]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[na:1.8.0_151]
+	at java.net.URLConnection.getContent(URLConnection.java:739) ~[na:1.8.0_151]
+	at com.capitalone.dashboard.client.DefaultJiraClient.getStatusMapping(DefaultJiraClient.java:442) ~[jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStatuses(StoryDataClientImpl.java:750) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStoryInformation(StoryDataClientImpl.java:154) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:119) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:28) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) [core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 11:00:00,205 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 11:00:00,205 INFO  c.c.d.c.story.StoryDataClientImpl - Loop i 0 pageSize 0
+2018-01-01 11:00:00,205 INFO  c.c.d.collector.CollectorTask - Story Data              0        0s
+2018-01-01 11:00:00,205 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-01 11:01:08,329 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:9, serverValue:595}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Jira
+2018-01-01 11:05:00,027 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:598}] to localhost:27017
+2018-01-01 11:05:00,033 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:05:00,034 INFO  c.c.d.collector.CollectorTask - http://localhost:8086/
+2018-01-01 11:05:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:05:00,034 INFO  c.c.d.collector.CollectorTask - Team Data               0        0s
+2018-01-01 11:05:00,108 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 11:05:00,108 INFO  c.c.d.collector.CollectorTask - Project Data            0        0s
+2018-01-01 11:05:00,133 ERROR c.c.d.client.DefaultJiraClient - IOException
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://localhost:8086/rest/api/2/status/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[na:1.8.0_151]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[na:1.8.0_151]
+	at java.net.URLConnection.getContent(URLConnection.java:739) ~[na:1.8.0_151]
+	at com.capitalone.dashboard.client.DefaultJiraClient.getStatusMapping(DefaultJiraClient.java:442) ~[jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStatuses(StoryDataClientImpl.java:750) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.client.story.StoryDataClientImpl.updateStoryInformation(StoryDataClientImpl.java:154) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:119) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.FeatureCollectorTask.collect(FeatureCollectorTask.java:28) [jira-feature-collector.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) [core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 11:05:00,186 ERROR c.c.d.client.DefaultJiraClient - Error 401 connecting to JIRA server, your credentials are probably wrong. Note: Ensure you are using JIRA user name not your email address.
+2018-01-01 11:05:00,187 INFO  c.c.d.c.story.StoryDataClientImpl - Loop i 0 pageSize 0
+2018-01-01 11:05:00,187 INFO  c.c.d.collector.CollectorTask - Story Data              0        0s
+2018-01-01 11:05:00,187 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2018-01-01 11:06:08,329 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:10, serverValue:598}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:09:00,331 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2990a784: startup date [Mon Jan 01 10:41:05 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@a01487d
+2018-01-01 11:09:00,351 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-01-01 11:09:00,355 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-01-01 11:09:00,404 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:599}] to localhost:27017
+2018-01-01 11:09:00,413 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

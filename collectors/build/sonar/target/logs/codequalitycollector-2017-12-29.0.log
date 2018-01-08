@@ -1,0 +1,859 @@
+2017-12-29 05:51:25,254 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2017-12-29 05:51:25,383 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f: startup date [Fri Dec 29 05:51:25 UTC 2017]; root of context hierarchy
+2017-12-29 05:51:25,607 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-29 05:51:25,697 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-29 05:51:26,092 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2017-12-29 05:51:26,269 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2017-12-29 05:51:26,279 INFO  com.capitalone.dashboard.Application - No profiles are active
+2017-12-29 05:51:26,310 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Fri Dec 29 05:51:26 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2017-12-29 05:51:27,699 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01556c0f-c24b-3ae4-a249-b9c062d4debf
+2017-12-29 05:51:27,709 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2017-12-29 05:51:27,730 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2017-12-29 05:51:27,739 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2017-12-29 05:51:27,741 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 05:51:27,741 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 05:51:27,741 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2017-12-29 05:51:27,741 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 05:51:27,742 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 05:51:27,742 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 05:51:27,753 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-29 05:51:27,815 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-29 05:51:27,880 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2017-12-29 05:51:27,966 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 05:51:28,052 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 05:51:28,090 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 05:51:28,202 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@c62348ab, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@17ad7d7e, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@49031529, socketFactory=javax.net.DefaultSocketFactory@6c438feb, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 05:51:28,797 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:159}] to localhost:27017
+2017-12-29 05:51:28,798 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=468322}
+2017-12-29 05:51:29,087 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:160}] to localhost:27017
+2017-12-29 05:51:29,357 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 05:51:29,357 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 05:51:29,358 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 05:51:29,367 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@c62348ab, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@17ad7d7e, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@49031529, socketFactory=javax.net.DefaultSocketFactory@6c438feb, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 05:51:29,375 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 05:51:29,378 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 05:51:29,379 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 05:51:29,395 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@c62348ab, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@17ad7d7e, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@49031529, socketFactory=javax.net.DefaultSocketFactory@6c438feb, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 05:51:29,411 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:161}] to localhost:27017
+2017-12-29 05:51:29,419 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=7618263}
+2017-12-29 05:51:29,440 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:162}] to localhost:27017
+2017-12-29 05:51:29,441 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=275913}
+2017-12-29 05:51:29,847 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 05:51:29,848 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 05:51:29,849 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 05:51:29,851 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@c62348ab, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@17ad7d7e, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@49031529, socketFactory=javax.net.DefaultSocketFactory@6c438feb, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 05:51:29,936 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:163}] to localhost:27017
+2017-12-29 05:51:29,938 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=385618}
+2017-12-29 05:51:30,611 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-29 05:51:30,620 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-12-29 05:51:30,620 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-12-29 05:51:30,621 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-12-29 05:51:30,623 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-12-29 05:51:30,636 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-12-29 05:51:30,643 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1f63e00d,type=ConfigurationPropertiesRebinder]
+2017-12-29 05:51:30,735 INFO  com.capitalone.dashboard.Application - Started Application in 5.979 seconds (JVM running for 6.778)
+2017-12-29 05:53:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:160}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 05:55:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 05:55:00,074 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:175}] to localhost:27017
+2017-12-29 05:55:00,346 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 05:55:00,348 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 05:55:00,348 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 05:55:00,506 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 05:55:00,507 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 05:55:00,572 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 05:55:00,573 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 05:56:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:6, serverValue:175}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:00:00,040 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:182}] to localhost:27017
+2017-12-29 06:00:00,088 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:00:00,090 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:00:00,091 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:00:00,113 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:00:00,114 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:00:00,148 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:00:00,148 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:01:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:7, serverValue:182}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:05:00,021 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:186}] to localhost:27017
+2017-12-29 06:05:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:05:00,050 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:05:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:05:00,064 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:05:00,064 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:05:00,099 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:05:00,102 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:06:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:8, serverValue:186}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:10:00,018 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:189}] to localhost:27017
+2017-12-29 06:10:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:10:00,024 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:10:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:10:00,037 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:10:00,038 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:10:00,072 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:10:00,072 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:11:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:9, serverValue:189}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:15:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:198}] to localhost:27017
+2017-12-29 06:15:00,044 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:15:00,045 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:15:00,046 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:15:00,062 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:15:00,063 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:15:00,115 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:15:00,115 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:16:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:10, serverValue:198}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:20:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:205}] to localhost:27017
+2017-12-29 06:20:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:20:00,043 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:20:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:20:00,060 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:20:00,060 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:20:00,088 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:20:00,088 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:21:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:11, serverValue:205}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:25:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:25:00,018 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:212}] to localhost:27017
+2017-12-29 06:25:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:25:00,034 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:25:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:25:00,052 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:25:00,053 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:25:00,071 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:25:00,071 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:26:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:12, serverValue:212}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:30:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:13, serverValue:216}] to localhost:27017
+2017-12-29 06:30:00,037 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:30:00,037 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:30:00,037 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:30:00,055 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:30:00,055 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:30:00,087 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:30:00,087 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:31:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:13, serverValue:216}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:35:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:35:00,046 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:14, serverValue:224}] to localhost:27017
+2017-12-29 06:35:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:35:00,055 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:35:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:35:00,074 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:35:00,074 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:35:00,104 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:35:00,106 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:36:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:14, serverValue:224}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:40:00,024 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:15, serverValue:229}] to localhost:27017
+2017-12-29 06:40:00,033 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:40:00,033 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:40:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:40:00,055 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:40:00,056 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:40:00,083 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:40:00,083 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:41:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:15, serverValue:229}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:45:00,035 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:16, serverValue:233}] to localhost:27017
+2017-12-29 06:45:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:45:00,050 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:45:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:45:00,064 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:45:00,064 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:45:00,090 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:45:00,090 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:46:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:16, serverValue:233}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:50:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:17, serverValue:239}] to localhost:27017
+2017-12-29 06:50:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:50:00,029 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:50:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:50:00,045 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:50:00,045 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:50:00,080 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:50:00,082 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:51:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:17, serverValue:239}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 06:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 06:55:00,034 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:18, serverValue:250}] to localhost:27017
+2017-12-29 06:55:00,044 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:55:00,046 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 06:55:00,047 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 06:55:00,067 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 06:55:00,067 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 06:55:00,088 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 06:55:00,088 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 06:56:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:18, serverValue:250}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:00:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:19, serverValue:259}] to localhost:27017
+2017-12-29 07:00:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:00:00,036 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:00:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:00:00,052 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:00:00,053 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:00:00,082 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:00:00,082 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:01:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:19, serverValue:259}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:05:00,017 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:20, serverValue:265}] to localhost:27017
+2017-12-29 07:05:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:05:00,043 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:05:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:05:00,058 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:05:00,058 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:05:00,083 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:05:00,083 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:06:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:20, serverValue:265}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:10:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:21, serverValue:270}] to localhost:27017
+2017-12-29 07:10:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:10:00,044 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:10:00,044 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:10:00,059 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:10:00,060 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:10:00,083 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:10:00,084 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:11:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:21, serverValue:270}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:15:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:15:00,021 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:22, serverValue:273}] to localhost:27017
+2017-12-29 07:15:00,027 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:15:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:15:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:15:00,045 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:15:00,045 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:15:00,089 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:15:00,089 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:16:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:22, serverValue:273}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:20:00,027 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:23, serverValue:281}] to localhost:27017
+2017-12-29 07:20:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:20:00,034 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:20:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:20:00,042 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:20:00,042 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:20:00,066 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:20:00,066 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:21:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:23, serverValue:281}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:25:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:24, serverValue:286}] to localhost:27017
+2017-12-29 07:25:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:25:00,023 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:25:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:25:00,039 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:25:00,039 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:25:00,064 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:25:00,065 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:26:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:24, serverValue:286}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:30:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:25, serverValue:296}] to localhost:27017
+2017-12-29 07:30:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:30:00,023 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:30:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:30:00,040 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:30:00,040 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:30:00,065 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:30:00,066 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:31:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:25, serverValue:296}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:35:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:26, serverValue:306}] to localhost:27017
+2017-12-29 07:35:00,027 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:35:00,027 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:35:00,030 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:35:00,049 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:35:00,049 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:35:00,078 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:35:00,078 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:36:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:26, serverValue:306}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:40:00,024 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:27, serverValue:311}] to localhost:27017
+2017-12-29 07:40:00,038 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:40:00,039 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:40:00,039 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:40:00,061 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:40:00,062 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:40:00,086 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:40:00,086 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:41:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:27, serverValue:311}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:45:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:45:00,021 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:28, serverValue:318}] to localhost:27017
+2017-12-29 07:45:00,030 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:45:00,031 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:45:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:45:00,045 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:45:00,045 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:45:00,068 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:45:00,068 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:46:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:28, serverValue:318}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:50:00,039 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:29, serverValue:326}] to localhost:27017
+2017-12-29 07:50:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:50:00,050 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:50:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:50:00,064 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:50:00,065 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:50:00,095 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:50:00,097 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:51:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:29, serverValue:326}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 07:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 07:55:00,027 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:30, serverValue:335}] to localhost:27017
+2017-12-29 07:55:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:55:00,051 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 07:55:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 07:55:00,072 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 07:55:00,072 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 07:55:00,119 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 07:55:00,119 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 07:56:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:30, serverValue:335}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:00:00,054 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:31, serverValue:348}] to localhost:27017
+2017-12-29 08:00:00,143 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:00:00,143 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:00:00,145 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:00:00,159 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:00:00,159 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:00:00,192 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:00:00,193 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:01:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:31, serverValue:348}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:05:00,036 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:32, serverValue:353}] to localhost:27017
+2017-12-29 08:05:00,056 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:05:00,062 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:05:00,064 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:05:00,075 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:05:00,075 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:05:00,102 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:05:00,102 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:06:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:32, serverValue:353}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:10:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:10:00,035 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:33, serverValue:359}] to localhost:27017
+2017-12-29 08:10:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:10:00,044 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:10:00,044 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:10:00,062 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:10:00,064 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:10:00,112 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:10:00,112 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:11:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:33, serverValue:359}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:15:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:15:00,021 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:34, serverValue:371}] to localhost:27017
+2017-12-29 08:15:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:15:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:15:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:15:00,074 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:15:00,074 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:15:00,105 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:15:00,106 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:16:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:34, serverValue:371}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:20:00,037 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:35, serverValue:374}] to localhost:27017
+2017-12-29 08:20:00,056 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:20:00,056 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:20:00,056 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:20:00,067 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:20:00,067 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:20:00,087 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:20:00,087 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:21:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:35, serverValue:374}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:25:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:25:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:36, serverValue:377}] to localhost:27017
+2017-12-29 08:25:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:25:00,024 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:25:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:25:00,033 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:25:00,034 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:25:00,060 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:25:00,060 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:26:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:36, serverValue:377}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:30:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:30:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:37, serverValue:384}] to localhost:27017
+2017-12-29 08:30:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:30:00,023 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:30:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:30:00,035 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:30:00,040 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:30:00,069 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:30:00,069 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:31:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:37, serverValue:384}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:35:00,027 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:38, serverValue:385}] to localhost:27017
+2017-12-29 08:35:00,030 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:35:00,031 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:35:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:35:00,048 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:35:00,048 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:35:00,084 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:35:00,084 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:36:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:38, serverValue:385}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 08:40:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:39, serverValue:388}] to localhost:27017
+2017-12-29 08:40:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:40:00,025 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 08:40:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 08:40:00,043 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 08:40:00,043 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 08:40:00,075 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 08:40:00,075 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 08:41:28,103 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:39, serverValue:388}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 08:43:28,194 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Fri Dec 29 05:51:26 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2017-12-29 08:43:28,200 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-29 08:43:28,200 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-29 08:43:28,237 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:40, serverValue:392}] to localhost:27017
+2017-12-29 08:43:28,247 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2017-12-29 09:08:34,560 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f: startup date [Fri Dec 29 09:08:34 UTC 2017]; root of context hierarchy
+2017-12-29 09:08:34,812 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-29 09:08:34,896 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-29 09:08:35,281 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2017-12-29 09:08:35,463 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2017-12-29 09:08:35,465 INFO  com.capitalone.dashboard.Application - No profiles are active
+2017-12-29 09:08:35,479 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Fri Dec 29 09:08:35 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2017-12-29 09:08:36,838 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01556c0f-c24b-3ae4-a249-b9c062d4debf
+2017-12-29 09:08:36,851 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2017-12-29 09:08:36,870 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2017-12-29 09:08:36,882 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2017-12-29 09:08:36,883 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 09:08:36,883 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 09:08:36,884 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2017-12-29 09:08:36,884 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 09:08:36,884 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 09:08:36,884 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2017-12-29 09:08:36,895 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-29 09:08:36,952 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5657a801] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-29 09:08:37,025 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2017-12-29 09:08:37,107 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 09:08:37,191 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 09:08:37,231 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 09:08:37,342 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@97ab67f6, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@49031529, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@6c438feb, socketFactory=javax.net.DefaultSocketFactory@62296490, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 09:08:37,948 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:394}] to localhost:27017
+2017-12-29 09:08:37,949 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=502100}
+2017-12-29 09:08:38,261 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:395}] to localhost:27017
+2017-12-29 09:08:38,559 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 09:08:38,563 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 09:08:38,563 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 09:08:38,566 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@97ab67f6, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@49031529, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@6c438feb, socketFactory=javax.net.DefaultSocketFactory@62296490, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 09:08:38,578 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 09:08:38,578 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 09:08:38,579 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 09:08:38,603 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@97ab67f6, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@49031529, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@6c438feb, socketFactory=javax.net.DefaultSocketFactory@62296490, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 09:08:38,615 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:396}] to localhost:27017
+2017-12-29 09:08:38,616 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=295001}
+2017-12-29 09:08:38,665 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:397}] to localhost:27017
+2017-12-29 09:08:38,666 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=320901}
+2017-12-29 09:08:39,021 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2017-12-29 09:08:39,021 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2017-12-29 09:08:39,022 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2017-12-29 09:08:39,023 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@97ab67f6, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@49031529, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@6c438feb, socketFactory=javax.net.DefaultSocketFactory@62296490, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2017-12-29 09:08:39,101 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:398}] to localhost:27017
+2017-12-29 09:08:39,102 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=242800}
+2017-12-29 09:08:39,935 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-29 09:08:39,947 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-12-29 09:08:39,948 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-12-29 09:08:39,949 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-12-29 09:08:39,953 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-12-29 09:08:39,971 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-12-29 09:08:39,981 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1f63e00d,type=ConfigurationPropertiesRebinder]
+2017-12-29 09:08:40,285 INFO  com.capitalone.dashboard.Application - Started Application in 6.466 seconds (JVM running for 7.189)
+2017-12-29 09:10:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:10:00,003 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:395}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:10:00,065 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:401}] to localhost:27017
+2017-12-29 09:10:00,144 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:10:00,155 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:10:00,155 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:10:00,312 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:10:00,313 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:10:00,386 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:10:00,387 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:11:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:6, serverValue:401}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:15:00,037 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:413}] to localhost:27017
+2017-12-29 09:15:00,074 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:15:00,075 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:15:00,078 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:15:00,098 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:15:00,098 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:15:00,154 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:15:00,154 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:16:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:7, serverValue:413}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:20:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:20:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:419}] to localhost:27017
+2017-12-29 09:20:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:20:00,057 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:20:00,057 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:20:00,070 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:20:00,071 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:20:00,098 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:20:00,099 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:21:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:8, serverValue:419}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:25:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:424}] to localhost:27017
+2017-12-29 09:25:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:25:00,043 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:25:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:25:00,059 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:25:00,059 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:25:00,081 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:25:00,082 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:26:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:9, serverValue:424}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:30:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:429}] to localhost:27017
+2017-12-29 09:30:00,032 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:30:00,032 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:30:00,032 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:30:00,045 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:30:00,045 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:30:00,072 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:30:00,073 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:31:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:10, serverValue:429}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:35:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:35:00,023 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:434}] to localhost:27017
+2017-12-29 09:35:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:35:00,031 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:35:00,032 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:35:00,051 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:35:00,051 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:35:00,075 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:35:00,075 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:36:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:11, serverValue:434}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:40:00,025 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:439}] to localhost:27017
+2017-12-29 09:40:00,049 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:40:00,049 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:40:00,049 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:40:00,065 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:40:00,065 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:40:00,094 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:40:00,097 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:41:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:12, serverValue:439}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:45:00,031 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:13, serverValue:446}] to localhost:27017
+2017-12-29 09:45:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:45:00,044 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:45:00,047 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:45:00,060 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:45:00,060 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:45:00,081 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:45:00,081 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:46:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:13, serverValue:446}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:50:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:50:00,023 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:14, serverValue:451}] to localhost:27017
+2017-12-29 09:50:00,041 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:50:00,043 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:50:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:50:00,055 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:50:00,055 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:50:00,079 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:50:00,079 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:51:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:14, serverValue:451}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 09:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 09:55:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:15, serverValue:456}] to localhost:27017
+2017-12-29 09:55:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:55:00,025 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 09:55:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 09:55:00,041 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 09:55:00,041 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 09:55:00,073 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 09:55:00,073 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 09:56:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:15, serverValue:456}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:00:00,027 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:16, serverValue:459}] to localhost:27017
+2017-12-29 10:00:00,041 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:00:00,041 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:00:00,041 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:00:00,063 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:00:00,063 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:00:00,086 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:00:00,086 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:01:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:16, serverValue:459}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:05:00,023 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:17, serverValue:460}] to localhost:27017
+2017-12-29 10:05:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:05:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:05:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:05:00,048 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:05:00,049 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:05:00,083 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:05:00,083 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:06:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:17, serverValue:460}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:10:00,025 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:18, serverValue:462}] to localhost:27017
+2017-12-29 10:10:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:10:00,035 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:10:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:10:00,046 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:10:00,046 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:10:00,071 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:10:00,071 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:11:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:18, serverValue:462}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:15:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:15:00,023 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:19, serverValue:465}] to localhost:27017
+2017-12-29 10:15:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:15:00,051 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:15:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:15:00,066 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:15:00,066 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:15:00,094 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:15:00,094 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:16:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:19, serverValue:465}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:20:00,034 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:20, serverValue:467}] to localhost:27017
+2017-12-29 10:20:00,057 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:20:00,057 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:20:00,057 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:20:00,069 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:20:00,069 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:20:00,091 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:20:00,092 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:21:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:20, serverValue:467}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:25:00,023 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:21, serverValue:468}] to localhost:27017
+2017-12-29 10:25:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:25:00,031 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:25:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:25:00,047 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:25:00,047 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:25:00,074 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:25:00,074 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:26:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:21, serverValue:468}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:30:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:30:00,034 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:22, serverValue:471}] to localhost:27017
+2017-12-29 10:30:00,048 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:30:00,048 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:30:00,048 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:30:00,061 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:30:00,061 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:30:00,091 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:30:00,092 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:31:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:22, serverValue:471}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:35:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:35:00,026 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:23, serverValue:473}] to localhost:27017
+2017-12-29 10:35:00,037 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:35:00,037 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:35:00,037 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:35:00,048 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:35:00,048 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:35:00,076 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:35:00,076 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:36:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:23, serverValue:473}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:40:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:40:00,033 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:24, serverValue:474}] to localhost:27017
+2017-12-29 10:40:00,040 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:40:00,040 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:40:00,041 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:40:00,064 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:40:00,064 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:40:00,102 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:40:00,102 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:41:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:24, serverValue:474}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:45:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:25, serverValue:476}] to localhost:27017
+2017-12-29 10:45:00,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:45:00,042 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:45:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:45:00,054 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:45:00,054 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:45:00,074 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:45:00,074 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:46:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:25, serverValue:476}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:50:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:26, serverValue:478}] to localhost:27017
+2017-12-29 10:50:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:50:00,043 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:50:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:50:00,056 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:50:00,056 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:50:00,074 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:50:00,074 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:51:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:26, serverValue:478}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 10:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 10:55:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:27, serverValue:481}] to localhost:27017
+2017-12-29 10:55:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:55:00,031 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 10:55:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 10:55:00,043 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 10:55:00,046 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 10:55:00,071 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 10:55:00,071 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 10:56:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:27, serverValue:481}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:00:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:00:00,026 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:28, serverValue:482}] to localhost:27017
+2017-12-29 11:00:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:00:00,036 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:00:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:00:00,048 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:00:00,048 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:00:00,065 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:00:00,066 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:01:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:28, serverValue:482}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:05:00,042 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:29, serverValue:484}] to localhost:27017
+2017-12-29 11:05:00,048 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:05:00,049 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:05:00,049 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:05:00,065 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:05:00,065 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:05:00,083 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:05:00,083 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:06:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:29, serverValue:484}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:10:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:10:00,026 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:30, serverValue:487}] to localhost:27017
+2017-12-29 11:10:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:10:00,031 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:10:00,031 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:10:00,048 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:10:00,048 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:10:00,077 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:10:00,078 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:11:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:30, serverValue:487}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:15:00,018 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:31, serverValue:488}] to localhost:27017
+2017-12-29 11:15:00,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:15:00,026 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:15:00,026 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:15:00,042 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:15:00,042 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:15:00,080 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:15:00,080 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:16:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:31, serverValue:488}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:20:00,023 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:32, serverValue:490}] to localhost:27017
+2017-12-29 11:20:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:20:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:20:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:20:00,041 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:20:00,041 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:20:00,064 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:20:00,064 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:21:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:32, serverValue:490}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:25:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:33, serverValue:492}] to localhost:27017
+2017-12-29 11:25:00,030 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:25:00,030 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:25:00,030 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:25:00,045 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:25:00,045 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:25:00,071 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:25:00,074 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:26:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:33, serverValue:492}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:30:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:30:00,019 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:34, serverValue:495}] to localhost:27017
+2017-12-29 11:30:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:30:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:30:00,030 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:30:00,044 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:30:00,044 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:30:00,070 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:30:00,070 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:31:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:34, serverValue:495}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:35:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:35:00,031 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:35, serverValue:496}] to localhost:27017
+2017-12-29 11:35:00,036 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:35:00,037 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:35:00,037 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:35:00,049 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:35:00,049 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:35:00,090 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:35:00,090 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:36:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:35, serverValue:496}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:40:00,018 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:36, serverValue:498}] to localhost:27017
+2017-12-29 11:40:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:40:00,022 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:40:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:40:00,041 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:40:00,041 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:40:00,062 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:40:00,062 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:41:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:36, serverValue:498}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:45:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:37, serverValue:500}] to localhost:27017
+2017-12-29 11:45:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:45:00,029 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:45:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:45:00,044 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:45:00,044 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:45:00,073 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:45:00,073 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:46:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:37, serverValue:500}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:50:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:38, serverValue:503}] to localhost:27017
+2017-12-29 11:50:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:50:00,024 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:50:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:50:00,035 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:50:00,035 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:50:00,055 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:50:00,055 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:51:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:38, serverValue:503}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 11:55:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 11:55:00,027 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:39, serverValue:505}] to localhost:27017
+2017-12-29 11:55:00,038 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:55:00,038 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 11:55:00,038 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 11:55:00,047 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 11:55:00,048 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 11:55:00,069 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 11:55:00,069 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 11:56:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:39, serverValue:505}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 12:00:00,022 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:40, serverValue:507}] to localhost:27017
+2017-12-29 12:00:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:00:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 12:00:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:00:00,038 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 12:00:00,038 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 12:00:00,055 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 12:00:00,055 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 12:01:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:40, serverValue:507}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:05:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 12:05:00,018 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:41, serverValue:508}] to localhost:27017
+2017-12-29 12:05:00,022 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:05:00,023 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 12:05:00,023 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:05:00,044 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 12:05:00,044 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 12:05:00,062 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 12:05:00,062 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 12:06:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:41, serverValue:508}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:10:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 12:10:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:42, serverValue:511}] to localhost:27017
+2017-12-29 12:10:00,032 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:10:00,034 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 12:10:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:10:00,051 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 12:10:00,051 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 12:10:00,079 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 12:10:00,079 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 12:11:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:42, serverValue:511}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:15:00,002 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 12:15:00,033 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:43, serverValue:512}] to localhost:27017
+2017-12-29 12:15:00,043 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:15:00,044 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 12:15:00,044 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:15:00,055 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 12:15:00,055 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 12:15:00,072 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 12:15:00,072 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 12:16:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:43, serverValue:512}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 12:20:00,020 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:44, serverValue:515}] to localhost:27017
+2017-12-29 12:20:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:20:00,024 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 12:20:00,024 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:20:00,039 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 12:20:00,039 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 12:20:00,070 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 12:20:00,070 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 12:21:37,244 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:44, serverValue:515}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:25:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Sonar
+2017-12-29 12:25:00,024 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:45, serverValue:517}] to localhost:27017
+2017-12-29 12:25:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:25:00,028 INFO  c.c.d.collector.CollectorTask - http://localhost:9000
+2017-12-29 12:25:00,029 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-29 12:25:00,038 INFO  c.c.d.collector.CollectorTask - Fetched projects   2             0s
+2017-12-29 12:25:00,038 INFO  c.c.d.collector.CollectorTask - New projects            0        0s
+2017-12-29 12:25:00,059 INFO  c.c.d.collector.CollectorTask - Updated                 0        0s
+2017-12-29 12:25:00,060 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-29 12:26:22,658 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f63e00d: startup date [Fri Dec 29 09:08:35 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7919964f
+2017-12-29 12:26:22,663 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-29 12:26:22,666 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-29 12:26:22,681 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:45, serverValue:517}] to localhost:27017 because it is past its maximum allowed idle time.
+2017-12-29 12:26:22,700 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:46, serverValue:519}] to localhost:27017
+2017-12-29 12:26:22,705 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

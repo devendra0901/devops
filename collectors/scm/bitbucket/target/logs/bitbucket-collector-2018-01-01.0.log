@@ -1,0 +1,312 @@
+2018-01-01 10:11:58,066 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.2.Final
+2018-01-01 10:11:58,250 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30: startup date [Mon Jan 01 10:11:58 UTC 2018]; root of context hierarchy
+2018-01-01 10:11:58,539 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-01 10:11:58,648 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d6e3af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-01 10:11:59,033 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://localhost:8888
+2018-01-01 10:11:59,201 WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-01-01 10:11:59,205 INFO  com.capitalone.dashboard.Application - No profiles are active
+2018-01-01 10:11:59,236 INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@535ac492: startup date [Mon Jan 01 10:11:59 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30
+2018-01-01 10:12:00,865 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5ae94b21-555c-3e34-89ac-4b23bd02e833
+2018-01-01 10:12:00,874 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Post-processing PropertySource instances
+2018-01-01 10:12:00,898 INFO  c.u.j.c.StringEncryptorConfiguration - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+2018-01-01 10:12:00,905 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2018-01-01 10:12:00,906 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:12:00,906 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:12:00,906 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-01-01 10:12:00,907 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource applicationConfig: [file:application.properties] [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:12:00,907 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:12:00,907 INFO  c.u.j.EnableEncryptablePropertySourcesPostProcessor - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-01-01 10:12:00,919 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-01 10:12:00,976 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d6e3af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-01 10:12:01,554 INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2018-01-01 10:12:01,644 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:12:01,750 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:12:01,790 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:12:01,903 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@5653dacc, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@27418340, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3f0b26f4, socketFactory=javax.net.DefaultSocketFactory@4fddd896, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:12:02,247 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:525}] to localhost:27017
+2018-01-01 10:12:02,249 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=524702}
+2018-01-01 10:12:02,439 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:526}] to localhost:27017
+2018-01-01 10:12:02,906 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:12:02,906 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:12:02,907 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:12:02,911 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@5653dacc, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@27418340, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3f0b26f4, socketFactory=javax.net.DefaultSocketFactory@4fddd896, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:12:02,926 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:12:02,926 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:12:02,926 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:12:02,952 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@5653dacc, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@27418340, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3f0b26f4, socketFactory=javax.net.DefaultSocketFactory@4fddd896, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:12:03,046 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:527}] to localhost:27017
+2018-01-01 10:12:03,047 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=999204}
+2018-01-01 10:12:03,073 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:528}] to localhost:27017
+2018-01-01 10:12:03,081 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=7600028}
+2018-01-01 10:12:03,490 INFO  c.c.dashboard.config.MongoConfig - ReplicaSetfalse
+2018-01-01 10:12:03,495 INFO  c.c.dashboard.config.MongoConfig - Initializing Mongo Client server at: localhost:27017
+2018-01-01 10:12:03,495 INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-01-01 10:12:03,503 INFO  c.c.dashboard.config.MongoConfig - Connecting to Mongo: Mongo{options=MongoClientOptions{description='null', readPreference=primary, writeConcern=WriteConcern{w=1, wtimeout=0, fsync=false, j=false, codecRegistry=org.bson.codecs.configuration.ProvidersCodecRegistry@5653dacc, minConnectionsPerHost=0, maxConnectionsPerHost=100, threadsAllowedToBlockForConnectionMultiplier=5, serverSelectionTimeout=30000, maxWaitTime=120000, maxConnectionIdleTime=60000, maxConnectionLifeTime=0, connectTimeout=10000, socketTimeout=0, socketKeepAlive=false, sslEnabled=false, sslInvalidHostNamesAllowed=false, alwaysUseMBeans=false, heartbeatFrequency=10000, minHeartbeatFrequency=500, heartbeatConnectTimeout=20000, heartbeatSocketTimeout=20000, localThreshold=15, requiredReplicaSetName='null', dbDecoderFactory=com.mongodb.DefaultDBDecoder$1@27418340, dbEncoderFactory=com.mongodb.DefaultDBEncoder$1@3f0b26f4, socketFactory=javax.net.DefaultSocketFactory@4fddd896, cursorFinalizerEnabled=true, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitQueueSize=500, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=60000, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=20000, readTimeoutMS=20000, keepAlive=false, receiveBufferSize=0, sendBufferSize=0}}}
+2018-01-01 10:12:03,623 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:529}] to localhost:27017
+2018-01-01 10:12:03,624 INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 1]}, minWireVersion=0, maxWireVersion=6, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=282201}
+2018-01-01 10:12:04,371 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-01-01 10:12:04,384 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-01-01 10:12:04,385 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-01-01 10:12:04,387 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-01-01 10:12:04,391 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-01-01 10:12:04,658 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-01-01 10:12:04,666 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=535ac492,type=ConfigurationPropertiesRebinder]
+2018-01-01 10:12:04,722 INFO  com.capitalone.dashboard.Application - Started Application in 7.336 seconds (JVM running for 8.185)
+2018-01-01 10:14:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:526}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:15:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:15:00,106 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:536}] to localhost:27017
+2018-01-01 10:15:00,129 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:15:00,129 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:15:00,129 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:15:03,591 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:15:03,596 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:16:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:6, serverValue:536}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:20:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:20:00,073 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:543}] to localhost:27017
+2018-01-01 10:20:00,083 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:20:00,084 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:20:00,084 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:20:02,439 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:20:02,440 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:21:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:7, serverValue:543}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:25:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:25:00,040 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:546}] to localhost:27017
+2018-01-01 10:25:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:25:00,051 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:25:00,051 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:25:02,773 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:25:02,773 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:26:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:8, serverValue:546}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:30:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:30:00,030 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:552}] to localhost:27017
+2018-01-01 10:30:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:30:00,034 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:30:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:30:02,618 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:30:02,619 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:31:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:9, serverValue:552}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:35:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:35:00,040 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:556}] to localhost:27017
+2018-01-01 10:35:00,050 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:35:00,050 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:35:00,052 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:35:02,647 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:35:02,648 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:36:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:10, serverValue:556}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:40:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:40:00,024 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:559}] to localhost:27017
+2018-01-01 10:40:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:40:00,028 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:40:00,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:40:02,386 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:40:02,386 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:41:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:11, serverValue:559}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:45:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:45:00,062 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:575}] to localhost:27017
+2018-01-01 10:45:00,066 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:45:00,068 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:45:00,069 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:45:03,011 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:45:03,012 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:46:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:12, serverValue:575}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:50:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:50:00,049 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:13, serverValue:583}] to localhost:27017
+2018-01-01 10:50:00,053 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:50:00,054 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:50:00,055 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:50:02,423 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:50:02,424 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:51:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:13, serverValue:583}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 10:55:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 10:55:00,031 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:14, serverValue:590}] to localhost:27017
+2018-01-01 10:55:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:55:00,034 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 10:55:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 10:55:02,584 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 10:55:02,585 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 10:56:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:14, serverValue:590}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:00:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 11:00:00,026 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:15, serverValue:593}] to localhost:27017
+2018-01-01 11:00:00,044 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:00:00,045 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 11:00:00,045 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:00:02,964 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 11:00:02,965 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 11:01:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:15, serverValue:593}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:05:00,001 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 11:05:00,036 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:16, serverValue:597}] to localhost:27017
+2018-01-01 11:05:00,038 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:05:00,039 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 11:05:00,039 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:05:02,419 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 11:05:02,420 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 11:06:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:16, serverValue:597}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:10:00,000 INFO  c.c.d.collector.CollectorTask - Running Collector: Bitbucket
+2018-01-01 11:10:00,021 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:17, serverValue:601}] to localhost:27017
+2018-01-01 11:10:00,034 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:10:00,034 INFO  c.c.d.collector.CollectorTask - Starting...
+2018-01-01 11:10:00,035 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2018-01-01 11:10:02,590 ERROR c.c.d.c.DefaultBitbucketServerClient - null
+2018-01-01 11:10:02,593 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.NullPointerException: null
+	at com.capitalone.dashboard.collector.DefaultBitbucketServerClient.getCommits(DefaultBitbucketServerClient.java:94) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.GitCollectorTask.collect(GitCollectorTask.java:148) ~[bitbucket-scm-collector-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at com.capitalone.dashboard.collector.CollectorTask.run(CollectorTask.java:63) ~[core-2.0.5-SNAPSHOT.jar!/:2.0.5-SNAPSHOT]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.5.RELEASE.jar!/:4.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+2018-01-01 11:11:01,807 INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:17, serverValue:601}] to localhost:27017 because it is past its maximum allowed idle time.
+2018-01-01 11:11:09,891 INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@535ac492: startup date [Mon Jan 01 10:11:59 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b523e30
+2018-01-01 11:11:09,900 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-01-01 11:11:09,902 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-01-01 11:11:09,938 INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:18, serverValue:602}] to localhost:27017
+2018-01-01 11:11:09,946 INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

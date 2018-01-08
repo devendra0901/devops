@@ -1,0 +1,7 @@
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/gitlab/DefaultGitlabClientTest.java
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/gitlab/GitlabUriUtilityTest.java
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/data/DefaultFeatureDataClientTest.java
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/ApplicationConfigTest.java
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/collector/FeatureServiceTest.java
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/collector/FeatureCollectorTaskTest.java
+/home/devopsadmin/Hygieia/collectors/feature/gitlab/src/test/java/com/capitalone/dashboard/data/FeatureDataMapperTest.java

@@ -1,0 +1,47 @@
+# Database Name
+dbname=mydb
+
+# Database HostName - default is localhost
+dbhost=localhost
+
+# Database Port - default is 27017
+dbport=27017
+
+# MongoDB replicaset
+dbreplicaset=false
+dbhostport=localhost:27017
+
+# Database Username - default is blank
+dbusername=myuser
+
+# Database Password - default is blank
+dbpassword=Password@123
+
+# Logging File location
+logging.file=./logs/bitbucket.log
+
+# Collector schedule (required)
+git.cron=0 0/5 * * * *
+
+# Mandatory parameters
+git.host=https://bitbucket.org/
+git.api=/rest/api/1.0/
+
+# Maximum number of days to go back in time when fetching commits
+git.commitThresholdDays=15
+
+# Page size for rest calls
+#   Only applicable to Bitbucket Server.
+#   Only applicable to Bitbucket Cloud.
+git.pageSize=25
+
+# Bitbucket product
+#   Set to 'cloud' to use Bitbucket Cloud (formerly known as Bitbucket)
+#   Set to 'server' to use Bitbucket Server (formerly known as Stash)
+#   More information can be found here:	https://github.com/capitalone/Hygieia/issues/609
+git.product=server
+		
+# Bitbucket key for private repos
+bitbucket.key=ssh-rsa 
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDLI0+Ez+VDcbLGZdfVt/W4/3IZxGeqaEcG53uCfbVt34TkDY4q3EkPAn+NmZoHivr25SuX7z61wkfaT4Ie192+A7gDIIIfAkqVm2ptIy+DQYBDLDRyr4PY32uxECFNKCNYdV64ySkq2CfRJ8MaZK4zEyMjZFYIq/wT4Kzsga75P567G36XyjZL3V370O2VqH6yKZ5ueV1edAeGjjXgv+RqEwbigPEJYQ/TFbk0DQ1oVdoFT4ceeZOV9dkRTjbzNkhbJH6hZDHO066ieqyY4VeN5sjXe1L+rVSFYiZHTSTOIjjFUJu/Zzpdmhk/sIUH0shMWwP5i7ZQxBeSCxwDTuvr 
+devendra.kumar@cgi.com

@@ -1,0 +1,4 @@
+/home/devopsadmin/Hygieia/collectors/build/sonar/src/test/java/com/capitalone/dashboard/util/SonarDashboardUrlTest.java
+/home/devopsadmin/Hygieia/collectors/build/sonar/src/test/java/com/capitalone/dashboard/collector/DefaultSonar6ClientTest.java
+/home/devopsadmin/Hygieia/collectors/build/sonar/src/test/java/com/capitalone/dashboard/collector/SonarCollectorTaskTest.java
+/home/devopsadmin/Hygieia/collectors/build/sonar/src/test/java/com/capitalone/dashboard/collector/SonarClientSelectorTest.java

@@ -1,0 +1,9 @@
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/model/GitHubParsed.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/collector/RestOperationsSupplier.java
+/home/devopsadmin/Hygieia/collectors/scm/github/src/main/java/com/capitalone/dashboard/Application.java

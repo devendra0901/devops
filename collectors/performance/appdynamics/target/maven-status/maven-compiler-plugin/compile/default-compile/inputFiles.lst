@@ -1,0 +1,10 @@
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/repository/AppDynamicsApplicationRepository.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/collector/AppdynamicsSettings.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/collector/RestOperationsSupplier.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/collector/AppdynamicsClient.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/model/AppdynamicsApplication.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/Application.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/repository/AppdynamicsCollectorRepository.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/model/AppdynamicsCollector.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/collector/AppdynamicsCollectorTask.java
+/home/devopsadmin/Hygieia/collectors/performance/appdynamics/src/main/java/com/capitalone/dashboard/collector/DefaultAppdynamicsClient.java

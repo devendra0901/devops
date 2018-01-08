@@ -1,0 +1,38 @@
+2017-12-27 06:37:57,892 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:57,895 INFO  c.c.d.collector.CollectorTask - Starting...
+2017-12-27 06:37:57,895 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:57,898 INFO  c.c.d.collector.GitHubCollectorTask - {url=http://current}::null:: get commits
+2017-12-27 06:37:57,899 INFO  c.c.d.collector.GitHubCollectorTask - {url=http://current}::null get issues
+2017-12-27 06:37:57,899 INFO  c.c.d.collector.GitHubCollectorTask - {url=http://current}::null::get pulls
+2017-12-27 06:37:57,983 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2017-12-27 06:37:57,984 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2017-12-27 06:37:57,984 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2017-12-27 06:37:57,985 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2017-12-27 06:37:57,985 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-27 06:37:58,001 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:58,002 INFO  c.c.d.collector.CollectorTask - Starting...
+2017-12-27 06:37:58,002 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:58,003 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2017-12-27 06:37:58,004 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2017-12-27 06:37:58,004 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2017-12-27 06:37:58,004 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2017-12-27 06:37:58,004 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-27 06:37:58,009 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:58,015 INFO  c.c.d.collector.CollectorTask - Starting...
+2017-12-27 06:37:58,016 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:58,017 INFO  c.c.d.collector.GitHubCollectorTask - {url=http://current}::null:: get commits
+2017-12-27 06:37:58,018 INFO  c.c.d.collector.GitHubCollectorTask - {url=http://current}::null get issues
+2017-12-27 06:37:58,019 INFO  c.c.d.collector.GitHubCollectorTask - {url=http://current}::null::get pulls
+2017-12-27 06:37:58,020 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2017-12-27 06:37:58,020 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2017-12-27 06:37:58,020 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2017-12-27 06:37:58,020 INFO  c.c.d.collector.CollectorTask - New Issues              1        0s
+2017-12-27 06:37:58,021 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2017-12-27 06:37:58,025 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:58,026 INFO  c.c.d.collector.CollectorTask - Starting...
+2017-12-27 06:37:58,042 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2017-12-27 06:37:58,042 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2017-12-27 06:37:58,042 INFO  c.c.d.collector.CollectorTask - New Commits             0        0s
+2017-12-27 06:37:58,043 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2017-12-27 06:37:58,043 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2017-12-27 06:37:58,043 INFO  c.c.d.collector.CollectorTask - Finished                         0s
